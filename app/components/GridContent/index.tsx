@@ -1,13 +1,13 @@
 const GridContent = () => {
     return (<>
     <div className="grid grid-cols-1 bg-gray-200 p-5">
-        <div className="bg-blue-500 p-5 rounded-t-xl shadow min-h-[90vh]">home</div>
-        <div className="bg-green-500 p-5 shadow min-h-[110vh]">about me</div>
-        <div className="bg-blue-500 p-5 shadow min-h-[110vh]">resume</div>
-        <div className="bg-green-500 p-5 shadow min-h-[110vh]">projects</div>
-        <div className="bg-blue-500 p-5 shadow min-h-[110vh]">skills</div>
-        <div className="bg-green-500 p-5 shadow min-h-[110vh]">contact</div>
-        <div className="bg-blue-500 p-5 rounded-b-xl shadow min-h-[30vh]">footer</div>
+        <div className="flex justify-center items-center min-h-[90vh] p-10 bg-blue-500 rounded-t-xl shadow">home</div>
+        <div className="flex justify-center items-center min-h-[90vh] p-10 bg-green-500 rounded-t-xl shadow">about me</div>
+        <div className="flex justify-center items-center min-h-[100vh] p-10 bg-blue-500 rounded-t-xl shadow">resume</div>
+        <div className="flex justify-center items-center min-h-[90vh] p-10 bg-green-500 rounded-t-xl shadow">projects</div>
+        <div className="flex justify-center items-center min-h-[100vh] p-10 bg-blue-500 rounded-t-xl shadow">skills</div>
+        <div className="flex justify-center items-center min-h-[90vh] p-10 bg-green-500 rounded-t-xl shadow">contact</div>
+        <div className="flex justify-center items-center min-h-[30vh] p-10 bg-blue-500 rounded-t-xl shadow">footer</div>
     </div>
     </>)
 }
